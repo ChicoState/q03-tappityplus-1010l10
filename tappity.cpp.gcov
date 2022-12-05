@@ -1,0 +1,49 @@
+        -:    0:Source:tappity.cpp
+        -:    0:Graph:tappity.gcno
+        -:    0:Data:tappity.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "tappity.h"
+        -:    2:/**
+        -:    3: * Class for tappity
+        -:    4:**/
+        -:    5:
+        -:    6://Constructor sets the reference phrase
+function _ZN7tappityC2ENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 0 returned 0% blocks executed 0%
+    #####:    7:tappity::tappity(std::string reference)
+        -:    8:{
+    #####:    9:}
+        -:   10:
+        -:   11://Provide the input to be compared to the reference. Before this 
+        -:   12://function is called, the input should be considered an empty string
+function _ZN7tappity5entryENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 0 returned 0% blocks executed 0%
+    #####:   13:void tappity::entry(std::string input)
+        -:   14:{
+    #####:   15:}
+        -:   16:
+        -:   17://Compares the length of the reference to that of the input and
+        -:   18://returns the absolute value of the difference, or 0 if they are the
+        -:   19://same length
+function _ZN7tappity17length_differenceEv called 0 returned 0% blocks executed 0%
+    #####:   20:int tappity::length_difference()
+        -:   21:{
+    #####:   22:  return 0;
+        -:   23:}
+        -:   24:
+        -:   25://Compares the content of the reference to that of the input and
+        -:   26://calculates the accuracy of matching characters. If the two strings
+        -:   27://are identical, accuracy should be 100. However, for each 
+        -:   28://corresponding character that does not match in the same location,
+        -:   29://the percentage of corresponding characters should be returned.
+        -:   30://For example, if the reference and input have 10 letters and the input
+        -:   31://matches 8 of the corresponding reference characters, the function 
+        -:   32://should return 80. When input does not have the same number of
+        -:   33://characters as the reference, the accuracy should represent the percent
+        -:   34://of matching characters between the shorter and longer strings. For
+        -:   35://example, if one string has 8 characters matching the corresponding
+        -:   36://locations in another string that has 16 characters, the accuracy is 50.
+function _ZN7tappity8accuracyEv called 0 returned 0% blocks executed 0%
+    #####:   37:double tappity::accuracy()
+        -:   38:{
+    #####:   39:  return 0;
+        -:   40:}
